@@ -14,7 +14,7 @@ services:
       - key: GROQ_MODEL
         value: openai/gpt-oss-20b
       - key: EMBEDDING_MODEL
-        value: sentence-transformers/all-MiniLM-L6-v2
+        value: default
       - key: TOP_K
         value: "5"
       - key: MAX_UPLOAD_MB
