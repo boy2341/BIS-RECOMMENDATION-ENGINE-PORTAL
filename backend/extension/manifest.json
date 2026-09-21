@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "IS-Assist",
+  "version": "0.1.0",
+  "description": "Analyze GeM tender specifications and identify relevant Indian Standards.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "https://gem.gov.in/*",
+    "https://*.gem.gov.in/*",
+    "http://127.0.0.1:8000/*",
+    "http://localhost:8000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gem.gov.in/*",
+        "https://*.gem.gov.in/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Open IS-Assist"
+  }
+}

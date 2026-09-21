@@ -1,0 +1,149 @@
+:root {
+  color-scheme: light;
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+  background: #f3f7f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f3f7f6;
+}
+
+.panel {
+  padding: 16px;
+}
+
+.panel-header {
+  margin-bottom: 16px;
+}
+
+.eyebrow {
+  margin: 0 0 4px;
+  color: #0f766e;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.subtitle,
+.muted {
+  color: #6b7280;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.card,
+.state-card {
+  margin-bottom: 12px;
+  padding: 14px;
+  border: 1px solid #d9e4e2;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.state-card p {
+  margin-bottom: 0;
+  line-height: 1.45;
+}
+
+.error {
+  border-color: #fecaca;
+  background: #fff1f2;
+  color: #991b1b;
+}
+
+.hidden {
+  display: none;
+}
+
+.product-name {
+  margin: 0 0 4px;
+  color: #0f766e;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.muted {
+  margin: 0;
+  font-size: 14px;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  padding: 6px 8px;
+  border-radius: 6px;
+  background: #e6f4f1;
+  color: #115e59;
+  font-size: 13px;
+}
+
+.list {
+  display: grid;
+  gap: 10px;
+}
+
+.list-item {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.list-item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.item-title {
+  margin: 0 0 4px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.item-meta,
+.item-note {
+  margin: 0;
+  color: #4b5563;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.score {
+  color: #0f766e;
+  font-weight: 700;
+}
+
+.status {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 3px 6px;
+  border-radius: 4px;
+  background: #fef3c7;
+  color: #92400e;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}

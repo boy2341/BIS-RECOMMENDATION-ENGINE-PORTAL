@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IS-Assist</title>
+    <link rel="stylesheet" href="sidepanel.css" />
+    <script src="sidepanel.js" defer></script>
+  </head>
+
+  <body>
+    <main class="panel">
+      <header class="panel-header">
+        <p class="eyebrow">IS-ASSIST</p>
+        <h1>Tender Analysis</h1>
+        <p class="subtitle">
+          Standards recommendations for the current GeM tender.
+        </p>
+      </header>
+
+      <section id="loading-state" class="state-card hidden">
+        <p>Analyzing tender specifications…</p>
+      </section>
+
+      <section id="empty-state" class="state-card">
+        <h2>No analysis yet</h2>
+        <p>
+          Open a GeM tender page and click <strong>Analyze Tender</strong>.
+        </p>
+      </section>
+
+      <section id="error-state" class="state-card error hidden">
+        <h2>Analysis unavailable</h2>
+        <p id="error-message"></p>
+      </section>
+
+      <section id="results" class="hidden">
+        <section class="card">
+          <h2>Identified product</h2>
+          <p id="product-name" class="product-name"></p>
+          <p id="product-category" class="muted"></p>
+        </section>
+
+        <section class="card">
+          <h2>Extracted requirements</h2>
+          <div id="requirements-list" class="tag-list"></div>
+        </section>
+
+        <section class="card">
+          <h2>Recommended standards</h2>
+          <div id="standards-list" class="list"></div>
+        </section>
+
+        <section class="card">
+          <h2>Related standards</h2>
+          <div id="related-standards-list" class="list"></div>
+        </section>
+
+        <section class="card">
+          <h2>Compliance checks</h2>
+          <div id="compliance-list" class="list"></div>
+        </section>
+
+        <section class="card">
+          <h2>Recommendation summary</h2>
+          <p id="explanation-summary"></p>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

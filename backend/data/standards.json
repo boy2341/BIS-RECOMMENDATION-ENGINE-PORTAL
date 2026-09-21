@@ -1,0 +1,151 @@
+[
+  {
+    "standard_number": "IS 12615:2018",
+    "title": "Line Operated Three Phase AC Motors (IE Code) — Efficiency Classes and Performance Specification",
+    "year": "2018",
+    "category": "Electrical Motors",
+    "status": "reference record — verify current BIS status before procurement",
+    "amendment": null,
+    "scope": "Three-phase line-operated AC motors, including efficiency classes and performance requirements; covers general-purpose industrial motor applications within its stated scope.",
+    "keywords": ["three phase motor", "induction motor", "AC motor", "IE2", "IE3", "IE4", "efficiency", "industrial motor", "415 V", "50 Hz"],
+    "relations": [
+      {"standard_number": "IS 4029:2010", "relationship": "testing"},
+      {"standard_number": "IS 1231:1974", "relationship": "dimensions"},
+      {"standard_number": "IS 3043:2018", "relationship": "earthing reference"},
+      {"standard_number": "IS/IEC 60034-5:2000", "relationship": "enclosure/IP classification"}
+    ],
+    "source_url": "https://www.services.bis.gov.in/tmp/tbl5_2024-11-09_1123.pdf"
+  },
+  {
+    "standard_number": "IS 325:1978",
+    "title": "Three-Phase Induction Motors",
+    "year": "1978",
+    "category": "Electrical Motors",
+    "status": "historical reference — verify current BIS status and supersession",
+    "amendment": null,
+    "scope": "Specification reference for three-phase induction motors; retained as a relationship/reference record for prototype retrieval.",
+    "keywords": ["three phase induction motor", "induction motor", "motor", "squirrel cage", "wound rotor", "415 V", "50 Hz"],
+    "relations": [
+      {"standard_number": "IS 1231:1974", "relationship": "dimensions"},
+      {"standard_number": "IS 4029:2010", "relationship": "testing"},
+      {"standard_number": "IS 13555:1993", "relationship": "selection and application"}
+    ],
+    "source_url": "https://www.services.bis.gov.in/tmp/SR13555.pdf"
+  },
+  {
+    "standard_number": "IS 1231:1974",
+    "title": "Dimensions of Three-Phase Foot-Mounted Induction Motors",
+    "year": "1974",
+    "category": "Electrical Motors",
+    "status": "reference record — verify current BIS status before procurement",
+    "amendment": null,
+    "scope": "Dimensions for foot-mounted three-phase 50 Hz AC induction motors and associated frame/shaft dimensions within the stated scope.",
+    "keywords": ["foot mounted motor", "frame size", "shaft", "dimensions", "three phase", "induction motor", "50 Hz"],
+    "relations": [
+      {"standard_number": "IS 12615:2018", "relationship": "motor performance"},
+      {"standard_number": "IS 325:1978", "relationship": "motor specification"}
+    ],
+    "source_url": "https://www.services.bis.gov.in/tmp/SR1231.pdf"
+  },
+  {
+    "standard_number": "IS 4029:2010",
+    "title": "Guide for Testing Three Phase Induction Motors",
+    "year": "2010",
+    "category": "Testing",
+    "status": "reference record — verify current BIS status before procurement",
+    "amendment": null,
+    "scope": "Guide/reference for testing three-phase induction motors.",
+    "keywords": ["test", "testing", "induction motor", "three phase motor", "performance test", "temperature rise", "motor"],
+    "relations": [
+      {"standard_number": "IS 12615:2018", "relationship": "testing support"},
+      {"standard_number": "IS 325:1978", "relationship": "testing support"}
+    ],
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/standard_review/Standard_review/Isdetails?ID=MjU1MTA%3D"
+  },
+  {
+    "standard_number": "IS 13555:1993",
+    "title": "Guide for Selection and Application of Three-Phase AC Induction Motors for Different Types of Driven Equipment",
+    "year": "1993",
+    "category": "Application Guide",
+    "status": "reference record — verify current BIS status before procurement",
+    "amendment": null,
+    "scope": "Guide covering selection and application of three-phase AC induction motors for different driven equipment in industrial and agricultural use.",
+    "keywords": ["selection", "application", "driven equipment", "industrial", "agricultural", "induction motor", "three phase"],
+    "relations": [
+      {"standard_number": "IS 325:1978", "relationship": "core motor specification reference"},
+      {"standard_number": "IS 1231:1974", "relationship": "dimensions reference"},
+      {"standard_number": "IS 4029:2010", "relationship": "testing reference"}
+    ],
+    "source_url": "https://www.services.bis.gov.in/tmp/SR13555.pdf"
+  },
+  {
+    "standard_number": "IS/IEC 60034-5:2000",
+    "title": "Rotating Electrical Machines: Part 5 — Degrees of Protection Provided by the Integral Design of Rotating Electrical Machines (IP Code) — Classification",
+    "year": "2000",
+    "category": "Electrical Machines / Enclosure Protection",
+    "status": "BIS record reviewed in 2024; verify applicable current edition",
+    "amendment": null,
+    "scope": "Classification of degrees of protection provided by the integral design of rotating electrical machines using the IP Code.",
+    "keywords": ["IP55", "IP code", "enclosure", "degree of protection", "rotating electrical machine", "motor", "ingress protection"],
+    "relations": [
+      {"standard_number": "IS 12615:2018", "relationship": "motor application"}
+    ],
+    "source_url": "https://services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails_mnd/20817"
+  },
+  {
+    "standard_number": "IS 3043:2018",
+    "title": "Code of Practice for Earthing",
+    "year": "2018",
+    "category": "Electrical Safety",
+    "status": "reference record — verify applicability to the procurement scope",
+    "amendment": null,
+    "scope": "Code of practice for earthing in electrical installations; may be relevant to installation requirements rather than the motor product specification itself.",
+    "keywords": ["earthing", "grounding", "electrical safety", "installation", "motor installation", "electrical installation"],
+    "relations": [
+      {"standard_number": "IS 12615:2018", "relationship": "installation/safety reference"}
+    ],
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/standard_review/Standard_review/Isdetails?ID=MjU1MTA%3D"
+  },
+  {
+    "standard_number": "IS 7538:1996",
+    "title": "Three-Phase Squirrel Cage Induction Motors for Centrifugal Pumps for Agricultural Application — Specification",
+    "year": "1996",
+    "category": "Electrical Motors / Pumps",
+    "status": "reference record — applicable only where pump/agricultural context matches",
+    "amendment": null,
+    "scope": "Three-phase squirrel-cage induction motors for centrifugal pumps in agricultural applications.",
+    "keywords": ["pump", "centrifugal pump", "agricultural", "squirrel cage", "induction motor", "three phase"],
+    "relations": [
+      {"standard_number": "IS 13555:1993", "relationship": "selection/application reference"}
+    ],
+    "source_url": "https://www.services.bis.gov.in/php/BIS_2.0/standard_review/Standard_review/Isdetails?ID=MjU1MTA%3D"
+  },
+  {
+    "standard_number": "IS 12075:1987",
+    "title": "Mechanical Vibration of Rotating Electrical Machines with Shaft Height 56 mm and Higher — Measurement, Evaluation and Limits of Vibration Severity",
+    "year": "1987",
+    "category": "Testing / Vibration",
+    "status": "reference record — verify current BIS status before procurement",
+    "amendment": null,
+    "scope": "Measurement, evaluation and limits related to mechanical vibration of rotating electrical machines within the stated shaft-height scope.",
+    "keywords": ["vibration", "mechanical vibration", "rotating electrical machine", "motor test", "shaft height"],
+    "relations": [
+      {"standard_number": "IS 4029:2010", "relationship": "testing support"}
+    ],
+    "source_url": "https://www.services.bis.gov.in/tmp/SR13555.pdf"
+  },
+  {
+    "standard_number": "IS 12824:1989",
+    "title": "Types of Duty and Classes of Ratings Assigned to Rotating Electrical Machines",
+    "year": "1989",
+    "category": "Electrical Machines / Rating",
+    "status": "reference record — verify current BIS status before procurement",
+    "amendment": null,
+    "scope": "Reference for types of duty and classes of ratings assigned to rotating electrical machines.",
+    "keywords": ["duty", "rating", "continuous duty", "S1", "rotating electrical machine", "motor"],
+    "relations": [
+      {"standard_number": "IS 12615:2018", "relationship": "rating context"}
+    ],
+    "source_url": "https://www.services.bis.gov.in/tmp/SR13555.pdf"
+  }
+]
