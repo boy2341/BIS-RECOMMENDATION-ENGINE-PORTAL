@@ -12,6 +12,31 @@ const relatedStandardsList = document.getElementById("related-standards-list");
 const complianceList = document.getElementById("compliance-list");
 const explanationSummary = document.getElementById("explanation-summary");
 
+// Portal website URL (points to your deployed website on Render / Cloud)
+const DEFAULT_PORTAL_URL = "https://is-assist-portal.onrender.com";
+
+function openPortal() {
+  chrome.storage.local.get(["portalUrl"], (result) => {
+    const targetUrl = result.portalUrl || DEFAULT_PORTAL_URL;
+    chrome.tabs.create({ url: targetUrl });
+  });
+}
+
+const openPortalBtn = document.getElementById("open-portal-btn");
+if (openPortalBtn) {
+  openPortalBtn.addEventListener("click", openPortal);
+}
+
+const openPortalSecondaryBtn = document.getElementById("open-portal-secondary-btn");
+if (openPortalSecondaryBtn) {
+  openPortalSecondaryBtn.addEventListener("click", openPortal);
+}
+
+const openPortalEmptyBtn = document.getElementById("open-portal-empty-btn");
+if (openPortalEmptyBtn) {
+  openPortalEmptyBtn.addEventListener("click", openPortal);
+}
+
 async function loadAnalysis() {
   const storedData = await chrome.storage.local.get([
     "latestAnalysis",

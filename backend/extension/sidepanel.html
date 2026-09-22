@@ -11,8 +11,20 @@
   <body>
     <main class="panel">
       <header class="panel-header">
-        <p class="eyebrow">IS-ASSIST</p>
-        <h1>Tender Analysis</h1>
+        <div class="panel-header-row">
+          <div>
+            <p class="eyebrow">IS-ASSIST</p>
+            <h1>Tender Analysis</h1>
+          </div>
+          <button id="open-portal-btn" class="portal-btn" title="Open Full BIS Portal">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+            <span>Open Portal</span>
+          </button>
+        </div>
         <p class="subtitle">
           Standards recommendations for the current GeM tender.
         </p>
@@ -25,8 +37,11 @@
       <section id="empty-state" class="state-card">
         <h2>No analysis yet</h2>
         <p>
-          Open a GeM tender page and click <strong>Analyze Tender</strong>.
+          Open a GeM tender page and click <strong>Analyze Tender</strong>, or open the web portal directly.
         </p>
+        <button id="open-portal-empty-btn" class="portal-action-btn" type="button" style="margin-top: 12px;">
+          Go to BIS Portal ↗
+        </button>
       </section>
 
       <section id="error-state" class="state-card error hidden">
@@ -64,6 +79,14 @@
         <section class="card">
           <h2>Recommendation summary</h2>
           <p id="explanation-summary"></p>
+        </section>
+
+        <section class="card portal-card">
+          <h2>Need full tender specification?</h2>
+          <p class="muted">Generate formulated tender clauses, explore knowledge graphs, and download signed tender PDFs in the web portal.</p>
+          <button id="open-portal-secondary-btn" class="portal-action-btn" type="button">
+            Open Full Portal & Generator ↗
+          </button>
         </section>
       </section>
     </main>
