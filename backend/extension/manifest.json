@@ -1,20 +1,20 @@
 {
   "manifest_version": 3,
   "name": "IS-Assist",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Analyze GeM tender specifications and identify relevant Indian Standards.",
   "permissions": [
     "activeTab",
     "storage",
     "sidePanel"
   ],
+
   "host_permissions": [
     "https://gem.gov.in/*",
     "https://*.gem.gov.in/*",
-    "http://127.0.0.1:8000/*",
-    "http://localhost:8000/*",
-    "https://*.onrender.com/*"
+    "https://is-assist-portal.onrender.com/*"
   ],
+  
   "background": {
     "service_worker": "background.js"
   },
